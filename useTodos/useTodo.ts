@@ -1,5 +1,6 @@
 import { useReducer, useEffect } from "react";
-import { stateType, todoReducer } from "../08-useReducer";
+import { stateType } from "./intro-reducer";
+import { todoReducer } from "./useReducer";
 
 const init = () => {
   const stored = localStorage.getItem("todo");
